@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+
+	"github.com/lebrancconvas/Advent-Of-Code-2024/solution/go/aoc_01/utils"
+)
 
 func main() {
+	utils.GetInput("")
 
-	fmt.Println("Hello, World!")
 }
