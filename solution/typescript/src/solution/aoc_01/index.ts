@@ -24,7 +24,7 @@ function aoc_01_1(): number {
 };
 
 function aoc_01_2(): number {
-    // Get Input
+  // Get Input
   const input = getInput('aoc_01/input.txt');
 
   // Organize Input
