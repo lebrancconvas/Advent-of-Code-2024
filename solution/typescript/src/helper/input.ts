@@ -1,9 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 
-export function getInput(fileName: string): string {
+export function getInput(problemNo: string): string {
   try {
-    const data = fs.readFileSync(path.join(__dirname, '..', '..', '..', '..', 'input', fileName), 'utf8');
+    const data = fs.readFileSync(path.join(__dirname, '..', '..', '..', '..', 'input', problemNo, 'input.txt'), 'utf8');
 
     return data;
   } catch(err) {
