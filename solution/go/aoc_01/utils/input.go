@@ -7,7 +7,8 @@ import (
 )
 
 func GetInput(problem string) string {
-	file, err := os.Open("../../../input/aoc_01/input.txt")
+	filePath := "../../../input/" + problem + "/input.txt"
+	file, err := os.Open(filePath)
 	if err != nil {
 		fmt.Println("Error Opening File: ", err)
 		return ""
